@@ -1,0 +1,40 @@
+.aboutIntro{
+    padding: 4rem 15rem;
+    text-align: center;
+    background-color:#f9fafb;
+}
+
+.text{
+    width:65rem;
+    color:#52626f;
+    font-size: 1.2rem;
+    margin-bottom:1.5rem;
+    font-weight: 400;
+
+}
+
+.idbox{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+
+    img{
+        border-radius: 50%;
+        width: 4.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+.id{
+
+    h3{
+        color:#52626f;
+        margin-bottom: .5rem;
+
+    }
+    p{
+        color:#52626f;
+
+    }
+}

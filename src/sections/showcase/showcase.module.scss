@@ -1,0 +1,55 @@
+.showcase{
+    height: 40rem;
+    position: relative;
+&::after{
+    content:'\A';
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0; 
+    left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:1;
+}
+}
+
+.showcaseImg{
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+    
+}
+
+.showcasetext{
+    z-index:23;
+    position: absolute;
+    bottom:120px;
+    left:190px;
+    font-size: 4.1rem;
+    width: 50rem;
+    color:white;
+    font-weight: 600;
+    animation: fadein 1s linear  1  alternate ;
+
+}
+.red{
+    background-color: #ed1d24;
+    padding:0 5px ;
+
+}
+
+@keyframes fadein {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    // 50%{
+    //     opacity:.5;
+    //     transform: translateY(10px);
+    // }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

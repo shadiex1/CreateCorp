@@ -1,0 +1,121 @@
+.blackBox{
+    background-color: black;
+    color:white;
+    width: 65%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    position: relative;
+    top: -100px;
+    height: 17rem;
+    align-items: center;
+}
+
+.header{
+    margin-bottom: 1rem;
+}
+
+.contactHeader{
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-right: 1rem;
+}
+.form{
+    margin: auto;
+    padding:5rem;
+    position: relative;
+    
+}
+.name2{
+width: 20rem;
+margin: .6rem;
+position: absolute;
+top:10%;
+left:50%;
+height: 3rem;
+padding: 1rem;
+}
+.name1{
+width: 20rem;
+margin: .6rem;
+position: absolute;
+top:10%;
+left:25%;
+height: 3rem;
+padding:1rem;
+}
+
+.message{
+position: absolute;
+top:70%;
+left: 25.5%;
+width: 44rem;
+height: 10rem;
+padding:1rem;
+}
+
+.btn{
+    background-color: #ed1d24;
+    padding:.9rem 20.6rem;
+    color:white;
+    width:4rem;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.1s all ;
+    position: relative;
+    top: 10rem;
+    left: 24.2rem;
+
+    &:hover{
+        background: #09536F;
+
+    }
+}
+
+.links{
+    position: relative;
+    top:20rem;
+
+}
+
+.btnLink{
+    background-color: #09536F;
+    padding:7rem;
+    color:white;
+    width:3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.1s all ;
+    position: relative;
+    top: 3rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        background: #ed1d24;
+
+    }
+}
+
+.linksList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer{
+    position: relative;
+    top:30rem;
+    background-color: #f7f7f7;
+}

@@ -1,0 +1,40 @@
+.companyOverview{
+    background: #F0F5F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:4rem 2rem;
+
+    h2{
+        text-align: center;
+        margin-bottom: 40px;
+        color: #242833;
+        font-family: 'Lato', sans-serif;
+        line-height: 42px;
+        font-weight: 700;
+        font-size: 42px;
+    }
+
+    p{
+        width: 50rem;
+        font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 400;
+    }
+    h4{
+        color: #555;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+
+
+
+    }
+}

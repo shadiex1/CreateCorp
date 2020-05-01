@@ -1,0 +1,36 @@
+.aboutIcons{
+    padding:5rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+        
+    
+}
+
+.card{
+    width: 30%;
+    margin: 1rem;
+}
+
+.iconBox{
+    display: flex;
+    align-items: center;
+    i{
+        margin-right: 1.5rem;
+        color:white;
+        background-color: #08526D;
+        padding:.7rem;
+        font-size: 1.1rem;
+    }
+.header{
+    color:#242833;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+}
+
+.text{
+    margin-top: 1rem;
+    color:#52626f;
+}

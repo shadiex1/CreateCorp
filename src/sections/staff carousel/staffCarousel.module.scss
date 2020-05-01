@@ -1,0 +1,54 @@
+.staffCarousel{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+
+.slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: -5rem auto ;
+    cursor: default	;
+
+    
+}
+.img{
+    border-radius: 50%;
+    width:6rem;
+    height: 6rem;
+    margin-bottom: 2rem;
+}
+
+.name{
+    color:white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: .7rem;
+}
+
+.description{
+    font-size: 16px;
+    color: #ddd;
+    text-transform: capitalize;
+    margin-top: -1rem;
+    
+
+}
+
+.text{
+color: #fff;
+letter-spacing: 2px;
+text-align: center;
+margin-top: 2rem;
+
+}
+
+// font-size: 16px;
+// line-height: 24px;
+// margin: 30px 0 0 0;

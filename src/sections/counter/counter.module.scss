@@ -1,0 +1,38 @@
+.counter{
+    display:flex;
+    width:100%;
+    padding: 5rem 15rem 5rem 15rem;
+    margin:auto;
+
+
+
+}
+
+.card{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    i{
+        color:#08526D;
+        font-size:30px;
+        margin-bottom: 1rem;
+    }
+}
+
+.number{
+    color:#08526D;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    
+}
+
+.text{
+    color:#ed1d24;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}

@@ -1,0 +1,27 @@
+.whyUs{
+    display: flex;
+
+    
+    div{
+        width: 100%;
+        
+    }
+    div:last-of-type{
+        background-color: #08526D;
+        padding: 6rem 3rem 5rem 2rem;
+        width:50%;
+        text-align: left;
+    }
+}
+
+.header{
+    color:white;
+    font-size:2.5rem;
+    margin-bottom: 2rem;
+}
+
+.text{
+    color:#b5c3c9;
+    width:40rem;
+    font-size: 1.1rem;
+}

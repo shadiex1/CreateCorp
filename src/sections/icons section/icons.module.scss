@@ -1,0 +1,44 @@
+.iconsContainer{
+    display: flex;
+    margin: auto;
+    padding:13rem 10rem;
+    height: 10rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 1rem;
+    
+
+    i{
+     color:white;
+    background-color: #ed1d24;
+    font-size: 1.3rem;
+    padding:1.4rem;
+    border-radius: 50%;
+    }
+
+    h4{
+        color: #08526D;
+        margin: 18px 0 1px 0;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 20px;
+        line-height: 20px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #8B999F;
+    margin-bottom: 0;
+    }
+}
+
