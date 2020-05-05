@@ -56,19 +56,19 @@ const contactPage=props=>(
                 </h1>
                 <div className={styles.linksList}>
                     <ScrollAnimation animateIn="fadeInUp" animateOnce>
-                    <a href="/contact" className={styles.btnLink}><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/" className={styles.btnLink}><i class="fab fa-facebook-f"></i></a>
                     </ScrollAnimation>
                     <ScrollAnimation delay="300" animateIn="fadeInUp" animateOnce>
-                    <a href="/contact" className={styles.btnLink}><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/" className={styles.btnLink}><i class="fab fa-linkedin-in"></i></a>
                     </ScrollAnimation>
                     <ScrollAnimation delay="600" animateIn="fadeInUp" animateOnce>
-                    <a href="/contact" className={styles.btnLink}><i class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/home" className={styles.btnLink}><i class="fab fa-twitter"></i></a>
                     </ScrollAnimation> 
                     <ScrollAnimation delay="900" animateIn="fadeInUp" animateOnce>
-                    <a href="/contact" className={styles.btnLink}><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/" className={styles.btnLink}><i class="fab fa-instagram"></i></a>
                    </ScrollAnimation>
                    <ScrollAnimation delay="1200" animateIn="fadeInUp" animateOnce>
-                    <a href="/contact" className={styles.btnLink}><i class="fab fa-pinterest-p"></i></a>
+                    <a href="https://www.pinterest.com/" className={styles.btnLink}><i class="fab fa-pinterest-p"></i></a>
                     </ScrollAnimation>
 
                 </div>

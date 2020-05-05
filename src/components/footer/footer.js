@@ -12,7 +12,7 @@ const footer = props=>(
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, ut labore et dolore magna aliqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco laboris commodo conse.
 
         </p>
-        <a href="index.html" className={styles.btn}> <i class="fas fa-chevron-circle-right"></i> Read More</a>
+        <a href={process.env.PUBLIC_URL + '/'} className={styles.btn}> <i class="fas fa-chevron-circle-right"></i> Read More</a>
         </div>
         <div className={styles.section}>
             <h4 className={styles.header}>
@@ -20,18 +20,18 @@ const footer = props=>(
             </h4>
             <div className={styles.lists}>
                 <ul className={styles.list}>
-                    <li> <i class="fas fa-chevron-right"></i> <a href="index.html">About</a></li>
-                    <li> <i class="fas fa-chevron-right"></i> <a href="index.html">Portfolio</a></li>
-                    <li> <i class="fas fa-chevron-right"></i> <a href="index.html">Team</a></li>
-                    <li> <i class="fas fa-chevron-right"></i> <a href="index.html">Pricing</a></li>
-                    <li> <i class="fas fa-chevron-right"></i> <a href="index.html">Privacy Policy</a></li>
+                    <li> <i class="fas fa-chevron-right"></i> <a href={process.env.PUBLIC_URL + '/'}>About</a></li>
+                    <li> <i class="fas fa-chevron-right"></i> <a href={process.env.PUBLIC_URL + '/'}>Portfolio</a></li>
+                    <li> <i class="fas fa-chevron-right"></i> <a href={process.env.PUBLIC_URL + '/'}>Team</a></li>
+                    <li> <i class="fas fa-chevron-right"></i> <a href={process.env.PUBLIC_URL + '/'}>Pricing</a></li>
+                    <li> <i class="fas fa-chevron-right"></i> <a href={process.env.PUBLIC_URL + '/'}>Privacy Policy</a></li>
                 </ul>                
                 <ul className={styles.list}>
-                    <li> <i class="fas fa-chevron-right"></i> <a href="index.html">FAQ</a></li>
-                    <li> <i class="fas fa-chevron-right"></i> <a href="index.html">Blog</a></li>
-                    <li> <i class="fas fa-chevron-right"></i> <a href="index.html">How It Works</a></li>
-                    <li> <i class="fas fa-chevron-right"></i> <a href="index.html">Benefuts</a></li>
-                    <li> <i class="fas fa-chevron-right"></i> <a href="index.html">Contact</a></li>
+                    <li> <i class="fas fa-chevron-right"></i> <a href={process.env.PUBLIC_URL + '/'}>FAQ</a></li>
+                    <li> <i class="fas fa-chevron-right"></i> <a href={process.env.PUBLIC_URL + '/'}>Blog</a></li>
+                    <li> <i class="fas fa-chevron-right"></i> <a href={process.env.PUBLIC_URL + '/'}>How It Works</a></li>
+                    <li> <i class="fas fa-chevron-right"></i> <a href={process.env.PUBLIC_URL + '/'}>Benefuts</a></li>
+                    <li> <i class="fas fa-chevron-right"></i> <a href={process.env.PUBLIC_URL + '/'}>Contact</a></li>
                 </ul>
             </div>
            
@@ -40,7 +40,7 @@ const footer = props=>(
             <h4 className={styles.header}>Contact Us</h4>
             <p className={styles.text_contactSection}>24,Panam Street Cyberjaya,Malaysia</p>
             <p className={styles.text_contactSection}>Phone: 012-12345678</p>
-            <p className={styles.text_contactSection}>Email: <a href="index.html">info@elitecorp.com</a></p>
+            <p className={styles.text_contactSection}>Email: <a href={process.env.PUBLIC_URL + '/'}>info@elitecorp.com</a></p>
         </div>
         
     </div>

@@ -17,7 +17,7 @@ const WhyChooseUs = props=>(
             <br/>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <BtnRed style={{}}inner="VIEW MORE"/>
+            <BtnRed inner="VIEW MORE"/>
         </ScrollAnimation>
     </div>
 )

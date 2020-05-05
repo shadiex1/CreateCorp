@@ -7,7 +7,7 @@ const banner = props=>(
         <p>
         You think we're cool? let's work together
         </p>
-        <a href="index.html" className={styles.btn}>CONTACT US</a>
+        <a href={process.env.PUBLIC_URL + '/contact'} className={styles.btn}>CONTACT US</a>
     </div>
 )
 

@@ -16,19 +16,19 @@ function App() {
   return (
     <div>
        <Switch>
-    <Route exact path="/">
+    <Route exact path={process.env.PUBLIC_URL + '/'}>
       <HomePage />
     </Route>
-    <Route path="/about">
+    <Route path={process.env.PUBLIC_URL + '/about'}>
       <AboutPage />
     </Route>
-    <Route path="/work">
+    <Route path={process.env.PUBLIC_URL + '/work'}>
       <WorkPage />
     </Route>
-    <Route path="/blog">
+    <Route path={process.env.PUBLIC_URL + '/blog'}>
       <BlogPage />
     </Route>
-    <Route path="/contact">
+    <Route path={process.env.PUBLIC_URL + '/contact'}>
       <Contactpage/>
     </Route>
   </Switch>

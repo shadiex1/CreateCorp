@@ -66,8 +66,8 @@ const blogPage=props=>(
             </div>
 
                 <div className={styles.btns}> 
-                <a href="/blog"> &lt; prev </a>
-                <a href="/blog">next &gt;</a>
+                <a href={process.env.PUBLIC_URL + '/blog'}> &lt; prev </a>
+                <a href={process.env.PUBLIC_URL + '/blog'}>next &gt;</a>
                    
                 </div>
             
