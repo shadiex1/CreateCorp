@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/CreateCorp/static/css/main.c5c7dfdb.chunk.css",
-    "main.js": "/CreateCorp/static/js/main.b7d7dc87.chunk.js",
-    "main.js.map": "/CreateCorp/static/js/main.b7d7dc87.chunk.js.map",
-    "runtime-main.js": "/CreateCorp/static/js/runtime-main.70288b22.js",
-    "runtime-main.js.map": "/CreateCorp/static/js/runtime-main.70288b22.js.map",
-    "static/js/2.7f7dc0eb.chunk.js": "/CreateCorp/static/js/2.7f7dc0eb.chunk.js",
-    "static/js/2.7f7dc0eb.chunk.js.map": "/CreateCorp/static/js/2.7f7dc0eb.chunk.js.map",
+    "main.js": "/CreateCorp/static/js/main.64075373.chunk.js",
+    "main.js.map": "/CreateCorp/static/js/main.64075373.chunk.js.map",
+    "runtime-main.js": "/CreateCorp/static/js/runtime-main.5b8a61d6.js",
+    "runtime-main.js.map": "/CreateCorp/static/js/runtime-main.5b8a61d6.js.map",
+    "static/js/2.d72a3dc4.chunk.js": "/CreateCorp/static/js/2.d72a3dc4.chunk.js",
+    "static/js/2.d72a3dc4.chunk.js.map": "/CreateCorp/static/js/2.d72a3dc4.chunk.js.map",
     "index.html": "/CreateCorp/index.html",
-    "precache-manifest.86c1ba0efdfb756111ac3c472519e8c3.js": "/CreateCorp/precache-manifest.86c1ba0efdfb756111ac3c472519e8c3.js",
+    "precache-manifest.e3002643a23676519a4cdde1661fb289.js": "/CreateCorp/precache-manifest.e3002643a23676519a4cdde1661fb289.js",
     "service-worker.js": "/CreateCorp/service-worker.js",
     "static/css/main.c5c7dfdb.chunk.css.map": "/CreateCorp/static/css/main.c5c7dfdb.chunk.css.map",
-    "static/js/2.7f7dc0eb.chunk.js.LICENSE.txt": "/CreateCorp/static/js/2.7f7dc0eb.chunk.js.LICENSE.txt"
+    "static/js/2.d72a3dc4.chunk.js.LICENSE.txt": "/CreateCorp/static/js/2.d72a3dc4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.70288b22.js",
-    "static/js/2.7f7dc0eb.chunk.js",
+    "static/js/runtime-main.5b8a61d6.js",
+    "static/js/2.d72a3dc4.chunk.js",
     "static/css/main.c5c7dfdb.chunk.css",
-    "static/js/main.b7d7dc87.chunk.js"
+    "static/js/main.64075373.chunk.js"
   ]
 }
