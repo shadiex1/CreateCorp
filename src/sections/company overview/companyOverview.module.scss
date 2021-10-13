@@ -25,6 +25,9 @@
     text-align: center;
     letter-spacing: 2px;
     font-weight: 400;
+    @media screen and (max-width:900px){
+    width: auto
+    }
     }
     h4{
         color: #555;
@@ -37,4 +40,8 @@
 
 
     }
+}
+
+@media screen and (max-width:900px){
+
 }

@@ -1,6 +1,8 @@
 .whyUs{
     display: flex;
-
+@media screen and (max-width:800px){
+    flex-direction: column;
+}
     
     div{
         width: 100%;
@@ -11,6 +13,20 @@
         padding: 6rem 3rem 5rem 2rem;
         width:50%;
         text-align: left;
+        @media screen and (max-width:800px){
+            padding: 1rem 0;
+            width: 100%;
+            text-align: center;
+            .header{
+                font-size: 2rem;
+            }
+            .text{
+                margin-bottom: 2rem;
+                width: 100% ;
+                
+            }
+        }
+            
     }
 }
 

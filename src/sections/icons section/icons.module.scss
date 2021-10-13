@@ -42,3 +42,14 @@
     }
 }
 
+@media screen and (max-width:900px){
+    .iconsContainer{
+        flex-direction: column;
+        height: auto;
+        padding: 5rem;
+        .card{
+            margin-bottom: 2rem;
+            margin-right: 0;
+        }
+    }
+}

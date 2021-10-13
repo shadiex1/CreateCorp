@@ -11,19 +11,24 @@
         margin-bottom: 2rem;
     }
     p{
-        width:60rem;
+        width:60%;
         color:#555;
         font-size: 1.3rem;
         text-align: center;
         margin-bottom: 4rem;
-
+@media screen and (max-width:800px){
+    width: 80%;
+}
     }
 
     ul{
         display: flex;
         list-style-type: none;
         margin-bottom: 2rem;
-        
+        @media screen and (max-width:800px){
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         li{
 
             button{
@@ -69,8 +74,19 @@
     gap: 0;
     width: 100%;
     padding:2rem 0 1rem 0;
-
+        @media screen and (max-width:900px){
+            grid-template-columns: repeat(2,1fr);
+      
+        }
+        @media screen and (max-width:600px){
+            grid-template-columns: repeat(1,1fr);
+          
+        }
     img{
+        @media screen and (max-width:600px){
+                width: 100%;
+            
+        }
         width:23.74rem;
         height:24rem;
         position: relative;

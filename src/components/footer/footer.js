@@ -14,7 +14,7 @@ const footer = props=>(
         </p>
         <a href={process.env.PUBLIC_URL + '/'} className={styles.btn}> <i class="fas fa-chevron-circle-right"></i> Read More</a>
         </div>
-        <div className={styles.section}>
+        {/* <div className={styles.section}>
             <h4 className={styles.header}>
             Helpful Links
             </h4>
@@ -35,7 +35,7 @@ const footer = props=>(
                 </ul>
             </div>
            
-        </div>
+        </div> */}
         <div className={styles.section}>
             <h4 className={styles.header}>Contact Us</h4>
             <p className={styles.text_contactSection}>24,Panam Street Cyberjaya,Malaysia</p>

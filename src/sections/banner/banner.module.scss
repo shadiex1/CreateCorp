@@ -27,7 +27,19 @@
     align-items: center;
     justify-content: space-around;
     padding: 5rem 10rem 5rem 10rem;
+    @media screen and (max-width:800px) {
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+        p{
+            margin: 2rem 0;
+            margin-left: 2rem;
+        }
 
+        .btn{
+             margin: 2rem 0;
+        }
+    }
     p{
         font-size: 2rem;
         color:white;

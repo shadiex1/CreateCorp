@@ -6,6 +6,9 @@
     text-align: center;
     align-items: center;
     margin-top: 3rem;
+    @media screen and (max-width:800px){
+        // padding: 5rem;
+    }
     h2{
         font-size:3rem;
         margin-bottom: 3rem;
@@ -25,6 +28,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width:800px){
+        flex-direction: column;     
+        margin: 3rem;
+        .post{
+            width: 90%;
+            padding-bottom: 3rem;
+            padding-left: 0;
+            text-align: center;
+        }
+    }
 
 }
 
@@ -36,7 +49,7 @@
 }
 
 .img{
-    max-width: 25rem;
+    max-width: 20rem;
     max-height: 25rem;
 }
 .title{
