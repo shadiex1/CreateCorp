@@ -37,7 +37,7 @@ const contactPage=props=>(
                 </p>
             </div>
         </div>
-        <div>
+        <div className={styles.formApplication}>
         <h1 className={styles.contactHeader}>
         Contact Form
         </h1>
